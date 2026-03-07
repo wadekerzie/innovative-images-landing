@@ -6,10 +6,12 @@ const CALENDLY_URL =
 function CTAButton({
   children,
   variant = "primary",
+  href,
   className = "",
 }: {
   children: React.ReactNode;
   variant?: "primary" | "outline";
+  href?: string;
   className?: string;
 }) {
   const base =
@@ -20,7 +22,7 @@ function CTAButton({
       : "border border-[var(--color-gold)] text-[var(--color-gold)] hover:bg-[var(--color-gold)] hover:text-[var(--color-bg-dark)]";
   return (
     <a
-      href={CALENDLY_URL}
+      href={href || CALENDLY_URL}
       target="_blank"
       rel="noopener noreferrer"
       className={`${base} ${styles} ${className}`}
@@ -117,7 +119,7 @@ export default function CorporateBoardPhotography() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <CTAButton>Schedule Your Consultation</CTAButton>
-            <CTAButton variant="outline">View Our Work</CTAButton>
+            <CTAButton variant="outline" href="https://www.innovativeimagesphotos.com">View Our Work</CTAButton>
           </div>
 
           {/* Scroll indicator */}
