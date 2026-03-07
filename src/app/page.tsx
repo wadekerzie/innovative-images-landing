@@ -72,7 +72,7 @@ function Testimonial({ quote, cite }: { quote: string; cite: string }) {
       >
         <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
       </svg>
-      <blockquote className="text-base italic text-[var(--color-text)] mb-5 leading-7 max-w-md mx-auto">
+      <blockquote className="text-base italic text-[var(--color-text)] mb-5 leading-7 max-w-md mx-auto text-center">
         {quote}
       </blockquote>
       <cite className="not-italic text-xs font-bold tracking-[1.5px] text-[var(--color-gold)] uppercase">
@@ -147,7 +147,7 @@ export default function CorporateBoardPhotography() {
             The Cost of Looking Unprepared
           </h2>
 
-          <div className="space-y-6 text-left sm:text-center">
+          <div className="space-y-6 text-center max-w-2xl mx-auto">
             <p className="text-base text-[var(--color-text-muted)] leading-8">
               Your board members appear on your website, in annual reports, on
               investor presentations, and across LinkedIn. When those portraits
