@@ -119,7 +119,7 @@ export default function CorporateBoardPhotography() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <CTAButton>Schedule Your Consultation</CTAButton>
-            <CTAButton variant="outline" href="https://www.innovativeimagesphotos.com">View Our Work</CTAButton>
+            <CTAButton variant="outline" href="https://www.innovativeimagesphotos.com/corporate">View Our Work</CTAButton>
           </div>
 
           {/* Scroll indicator */}
