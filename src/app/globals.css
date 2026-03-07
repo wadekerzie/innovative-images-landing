@@ -1,13 +1,18 @@
 @import "tailwindcss";
 
 @theme inline {
-  --color-brand-dark: #333333;
-  --color-brand-darker: #2a2a2a;
-  --color-brand-accent: #fc1000;
-  --color-brand-accent-hover: #d10d00;
-  --color-brand-light: #f9fafb;
-  --color-brand-muted: #dbdbdb;
-  --color-brand-subtle: rgba(249, 250, 251, 0.08);
+  --color-bg-dark: #111113;
+  --color-bg-section: #1b1b1f;
+  --color-bg-card: #242429;
+  --color-accent: #c0392b;
+  --color-accent-hover: #a93226;
+  --color-accent-glow: rgba(192, 57, 43, 0.3);
+  --color-gold: #c9a96e;
+  --color-gold-dim: rgba(201, 169, 110, 0.15);
+  --color-text: #f0ece4;
+  --color-text-muted: #a8a29e;
+  --color-text-dim: #6b6560;
+  --color-border: rgba(201, 169, 110, 0.12);
   --font-heading: "Gilda Display", Georgia, "Times New Roman", serif;
   --font-body: "Roboto Condensed", Arial, Helvetica, sans-serif;
 }
@@ -25,14 +30,14 @@ html {
 }
 
 body {
-  background-color: var(--color-brand-dark);
-  color: var(--color-brand-light);
+  background-color: var(--color-bg-dark);
+  color: var(--color-text);
   font-family: var(--font-body);
   font-weight: 300;
   line-height: 1.7;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-family: var(--font-heading);
   font-weight: 400;
   line-height: 1.2;
