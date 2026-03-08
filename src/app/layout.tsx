@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Corporate Board of Directors Photography | McKinney, TX",
+  title: "Professional Team Photography | McKinney, TX | Innovative Images",
   description:
-    "On-location board of directors photography for Dallas-Fort Worth corporations, law firms & hospitals. Executive portraits by Innovative Images.",
+    "On-location team photography for corporate groups, medical practices, law firms & professional organizations across Dallas-Fort Worth. 30+ years of experience.",
   robots: {
     index: true,
     follow: true,
@@ -13,10 +13,10 @@ export const metadata: Metadata = {
     "max-video-preview": -1,
   },
   openGraph: {
-    title: "Corporate Board of Directors Photography | Innovative Images",
+    title: "Professional Team Photography | Innovative Images",
     description:
-      "Professional on-location board portraits, executive headshots & team photography for Dallas-Fort Worth corporations, law firms and hospitals.",
-    url: "https://www.innovativeimagesphotos.com/corporate-board-photography",
+      "Cohesive, polished team portraits for corporate groups, medical practices, law firms & professional organizations. On-location across DFW.",
+    url: "https://www.innovativeimagesphotos.com/team-photography",
     siteName: "Innovative Images Photography",
     locale: "en_US",
     type: "website",
@@ -25,20 +25,19 @@ export const metadata: Metadata = {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Corporate board of directors seated for a professional group portrait by Innovative Images Photography",
+        alt: "Professional team portrait by Innovative Images Photography — corporate, medical, and legal group photography",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Corporate Board of Directors Photography | Innovative Images",
+    title: "Professional Team Photography | Innovative Images",
     description:
-      "Professional on-location board portraits, executive headshots & team photography for Dallas-Fort Worth corporations, law firms and hospitals.",
+      "Cohesive, polished team portraits for corporate groups, medical practices, law firms & professional organizations. On-location across DFW.",
     images: ["/og-image.jpg"],
   },
   alternates: {
-    canonical:
-      "https://www.innovativeimagesphotos.com/corporate-board-photography",
+    canonical: "https://www.innovativeimagesphotos.com/team-photography",
   },
 };
 
@@ -51,7 +50,7 @@ const jsonLd = {
       name: "Innovative Images Photography",
       alternateName: "Innovative Images",
       description:
-        "Professional on-location corporate board of directors photography, executive portraits, and team photos serving the Dallas-Fort Worth metroplex.",
+        "Professional on-location team photography, group portraits, and headshots for corporate groups, medical practices, law firms, and professional organizations across the Dallas-Fort Worth metroplex.",
       url: "https://www.innovativeimagesphotos.com",
       founder: {
         "@type": "Person",
@@ -85,33 +84,33 @@ const jsonLd = {
       ].map((city) => ({ "@type": "City", name: city })),
       hasOfferCatalog: {
         "@type": "OfferCatalog",
-        name: "Corporate Photography Services",
+        name: "Professional Photography Services",
         itemListElement: [
           {
             "@type": "Offer",
             itemOffered: {
               "@type": "Service",
-              name: "Board of Directors Photography",
+              name: "Team & Group Photography",
               description:
-                "On-location professional group portraits of corporate boards of directors, advisory boards, and executive leadership teams.",
+                "On-location professional group portraits for corporate teams, medical staff, law firm partners, and professional organizations of any size.",
             },
           },
           {
             "@type": "Offer",
             itemOffered: {
               "@type": "Service",
-              name: "Executive Headshot Photography",
+              name: "Professional Headshots",
               description:
-                "Individual professional headshots for C-suite executives, partners, physicians, and senior leadership.",
+                "Individual professional headshots with consistent lighting and style — unified across your entire team.",
             },
           },
           {
             "@type": "Offer",
             itemOffered: {
               "@type": "Service",
-              name: "Corporate Team Photography",
+              name: "Corporate Photography",
               description:
-                "Department and full-company team photos for corporations, law firms, hospitals, and professional organizations.",
+                "Full-service corporate photography including team portraits, executive headshots, and group photos for organizations across DFW.",
             },
           },
         ],
@@ -127,17 +126,17 @@ const jsonLd = {
             "http://schema.org/MobileWebPlatform",
           ],
         },
-        name: "Schedule a Portrait Consultation",
+        name: "Schedule a Team Photography Consultation",
       },
     },
     {
       "@type": "WebPage",
       "@id":
-        "https://www.innovativeimagesphotos.com/corporate-board-photography/#webpage",
-      url: "https://www.innovativeimagesphotos.com/corporate-board-photography",
-      name: "Corporate Board of Directors Photography | McKinney, TX",
+        "https://www.innovativeimagesphotos.com/team-photography/#webpage",
+      url: "https://www.innovativeimagesphotos.com/team-photography",
+      name: "Professional Team Photography | McKinney, TX | Innovative Images",
       description:
-        "On-location board of directors photography for Dallas-Fort Worth corporations, law firms & hospitals. Executive portraits by Innovative Images.",
+        "On-location team photography for corporate groups, medical practices, law firms & professional organizations across Dallas-Fort Worth.",
       isPartOf: {
         "@id": "https://www.innovativeimagesphotos.com/#website",
       },
