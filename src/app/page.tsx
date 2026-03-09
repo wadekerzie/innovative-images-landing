@@ -375,7 +375,7 @@ export default function ProfessionalTeamPhotography() {
                 src="/team-vaden.jpg"
                 alt="Professional executive portrait"
                 fill
-                style={{ objectFit: "cover", objectPosition: "top" }}
+                style={{ objectFit: "cover", objectPosition: "25% top" }}
               />
             </div>
             <div style={{ position: "relative", aspectRatio: "3/4", overflow: "hidden", borderRadius: 6 }}>
