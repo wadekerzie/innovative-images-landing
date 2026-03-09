@@ -142,7 +142,7 @@ export default function ProfessionalTeamPhotography() {
             position: "absolute",
             inset: 0,
             background:
-              "linear-gradient(to bottom, rgba(255,255,255,0.55), rgba(255,255,255,0.5), var(--color-bg-light))",
+              "linear-gradient(to bottom, rgba(250,248,245,0.7), rgba(250,248,245,0.65), var(--color-bg-light))",
           }}
         />
 
@@ -172,9 +172,9 @@ export default function ProfessionalTeamPhotography() {
 
           <p
             style={{
-              fontSize: "1.05rem",
-              fontWeight: 300,
-              color: "var(--color-text-muted)",
+              fontSize: "1.1rem",
+              fontWeight: 400,
+              color: "var(--color-text)",
               maxWidth: 560,
               marginLeft: "auto",
               marginRight: "auto",
