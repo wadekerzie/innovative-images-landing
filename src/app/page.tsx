@@ -203,6 +203,16 @@ export default function ProfessionalTeamPhotography() {
               Visit Our Website
             </a>
           </div>
+
+          <p style={{ marginTop: 20, fontSize: "1rem", color: "var(--color-text)" }}>
+            Ready to talk to Kurt now?{" "}
+            <a
+              href={`tel:+1${PHONE.replace(/-/g, "")}`}
+              style={{ color: "var(--color-gold)", fontWeight: 600, textDecoration: "none" }}
+            >
+              Call {PHONE}
+            </a>
+          </p>
         </div>
       </section>
 
