@@ -131,8 +131,8 @@ export default function ProfessionalTeamPhotography() {
         }}
       >
         <Image
-          src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1920&q=80&auto=format&fit=crop"
-          alt="Professional team collaborating in modern office"
+          src="/team-frisco-council.jpg"
+          alt="Frisco City Council professional team photo by Kurt Nelson"
           fill
           style={{ objectFit: "cover", objectPosition: "center 30%" }}
           priority
@@ -239,7 +239,7 @@ export default function ProfessionalTeamPhotography() {
               fontWeight: 300,
             }}
           >
-            {["Corporate Teams", "Medical Practices", "Law Firms", "Financial Groups", "Executive Leadership"].map(
+            {["Corporate Teams", "Medical Practices", "Law Firms", "Real Estate Teams", "Financial Groups", "Executive Leadership"].map(
               (item, i) => (
                 <span key={i} style={{ display: "flex", alignItems: "center", gap: 8 }}>
                   <span style={{ color: "var(--color-gold)", fontSize: "0.5rem" }}>◆</span>
@@ -270,8 +270,8 @@ export default function ProfessionalTeamPhotography() {
               </strong>
             </p>
             <p style={{ fontSize: "0.95rem", color: "var(--color-text-muted)", lineHeight: 1.9, textAlign: "center" }}>
-              Inconsistent backgrounds. Headshots from five different
-              photographers over a decade. Photos that look like they were taken
+              Inconsistent backgrounds. Headshots from several different
+              photographers over time. Photos that look like they were taken
               with a phone. Clients, patients, and partners notice — and they
               make judgments in seconds.
             </p>
@@ -279,73 +279,138 @@ export default function ProfessionalTeamPhotography() {
         </div>
       </section>
 
-      {/* ===== TEAM GALLERY — mixed group shots ===== */}
+      {/* ===== TEAM GALLERY — Kurt's real portfolio ===== */}
       <section style={{ padding: "16px 0", backgroundColor: "var(--color-bg-warm)" }}>
         <div className="section-container">
+          {/* Row 1: Four headshots */}
           <div
             style={{
               display: "grid",
-              gridTemplateColumns: "2fr 1fr 1fr",
-              gap: 12,
+              gridTemplateColumns: "repeat(4, 1fr)",
+              gap: 8,
             }}
           >
-            {/* Large group shot */}
-            <div style={{ position: "relative", aspectRatio: "3/2", overflow: "hidden", gridRow: "1 / 3" }}>
+            <div style={{ position: "relative", aspectRatio: "3/4", overflow: "hidden", borderRadius: 6 }}>
               <Image
-                src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&q=80&auto=format&fit=crop"
-                alt="Professional corporate team group photo"
+                src="/team-john.jpg"
+                alt="Executive headshot — John Shelnutt"
                 fill
-                style={{ objectFit: "cover", objectPosition: "center", filter: "grayscale(20%)" }}
+                style={{ objectFit: "cover", objectPosition: "top" }}
               />
             </div>
-            {/* Medical team */}
-            <div style={{ position: "relative", aspectRatio: "4/3", overflow: "hidden" }}>
+            <div style={{ position: "relative", aspectRatio: "3/4", overflow: "hidden", borderRadius: 6 }}>
               <Image
-                src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&q=80&auto=format&fit=crop"
-                alt="Medical professional team portrait"
+                src="/team-cynthia.jpg"
+                alt="Professional headshot"
                 fill
-                style={{ objectFit: "cover", objectPosition: "top", filter: "grayscale(20%)" }}
+                style={{ objectFit: "cover", objectPosition: "top" }}
               />
             </div>
-            {/* Individual headshot */}
-            <div style={{ position: "relative", aspectRatio: "4/3", overflow: "hidden" }}>
+            <div style={{ position: "relative", aspectRatio: "3/4", overflow: "hidden", borderRadius: 6 }}>
               <Image
-                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&q=80&auto=format&fit=crop&crop=face"
-                alt="Professional executive headshot"
+                src="/team-mayor.jpg"
+                alt="Government official headshot"
                 fill
-                style={{ objectFit: "cover", objectPosition: "top", filter: "grayscale(20%)" }}
+                style={{ objectFit: "cover", objectPosition: "top" }}
               />
             </div>
-            {/* Legal / business team */}
-            <div style={{ position: "relative", aspectRatio: "4/3", overflow: "hidden" }}>
+            <div style={{ position: "relative", aspectRatio: "3/4", overflow: "hidden", borderRadius: 6 }}>
               <Image
-                src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=400&q=80&auto=format&fit=crop"
-                alt="Business team in professional setting"
+                src="/team-whitney.jpg"
+                alt="Professional woman portrait"
                 fill
-                style={{ objectFit: "cover", objectPosition: "center", filter: "grayscale(20%)" }}
-              />
-            </div>
-            {/* Office candid */}
-            <div style={{ position: "relative", aspectRatio: "4/3", overflow: "hidden" }}>
-              <Image
-                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80&auto=format&fit=crop&crop=face"
-                alt="Professional woman corporate portrait"
-                fill
-                style={{ objectFit: "cover", objectPosition: "top", filter: "grayscale(20%)" }}
+                style={{ objectFit: "cover", objectPosition: "top" }}
               />
             </div>
           </div>
-          <p
+
+          {/* Row 2: Two large group shots side by side */}
+          <div
             style={{
-              textAlign: "center",
-              fontSize: "0.7rem",
-              color: "var(--color-text-dim)",
-              marginTop: 12,
-              fontStyle: "italic",
+              display: "grid",
+              gridTemplateColumns: "1fr 1fr",
+              gap: 8,
+              marginTop: 8,
             }}
           >
-            Sample imagery — to be replaced with Kurt&apos;s portfolio
-          </p>
+            <div style={{ position: "relative", aspectRatio: "3/2", overflow: "hidden", borderRadius: 6 }}>
+              <Image
+                src="/team-board-group.jpg"
+                alt="Corporate board of directors group photo"
+                fill
+                style={{ objectFit: "cover", objectPosition: "center" }}
+              />
+            </div>
+            <div style={{ position: "relative", aspectRatio: "3/2", overflow: "hidden", borderRadius: 6 }}>
+              <Image
+                src="/team-women-group.jpg"
+                alt="Women's professional team group portrait"
+                fill
+                style={{ objectFit: "cover", objectPosition: "center" }}
+              />
+            </div>
+          </div>
+
+          {/* Row 3: Dental duo center, headshots flanking */}
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "1fr 1fr 2fr 1fr 1fr",
+              gap: 8,
+              marginTop: 8,
+            }}
+          >
+            <div style={{ position: "relative", aspectRatio: "3/4", overflow: "hidden", borderRadius: 6 }}>
+              <Image
+                src="/team-vaden.jpg"
+                alt="Professional executive portrait"
+                fill
+                style={{ objectFit: "cover", objectPosition: "top" }}
+              />
+            </div>
+            <div style={{ position: "relative", aspectRatio: "3/4", overflow: "hidden", borderRadius: 6 }}>
+              <Image
+                src="/team-kelly.jpg"
+                alt="Professional portrait in upscale kitchen"
+                fill
+                style={{ objectFit: "cover", objectPosition: "top" }}
+              />
+            </div>
+            <div style={{ position: "relative", aspectRatio: "3/2", overflow: "hidden", borderRadius: 6 }}>
+              <Image
+                src="/team-dentist-duo.jpg"
+                alt="Dental practice team portrait — Sprout Dentistry"
+                fill
+                style={{ objectFit: "cover", objectPosition: "center" }}
+              />
+            </div>
+            <div style={{ position: "relative", aspectRatio: "3/4", overflow: "hidden", borderRadius: 6 }}>
+              <Image
+                src="/team-dentist.jpg"
+                alt="Dental professional headshot"
+                fill
+                style={{ objectFit: "cover", objectPosition: "top" }}
+              />
+            </div>
+            <div style={{ position: "relative", aspectRatio: "3/4", overflow: "hidden", borderRadius: 6 }}>
+              <Image
+                src="/team-realtor.jpg"
+                alt="Real estate professional portrait"
+                fill
+                style={{ objectFit: "cover", objectPosition: "top" }}
+              />
+            </div>
+          </div>
+
+          {/* Row 4: Frisco Council — full width showcase */}
+          <div style={{ position: "relative", aspectRatio: "21/9", overflow: "hidden", borderRadius: 6, marginTop: 8 }}>
+            <Image
+              src="/team-frisco-council.jpg"
+              alt="Frisco City Council professional team photo"
+              fill
+              style={{ objectFit: "cover", objectPosition: "center" }}
+            />
+          </div>
         </div>
       </section>
 
@@ -416,8 +481,8 @@ export default function ProfessionalTeamPhotography() {
       {/* ===== FULL-WIDTH IMAGE BREAK ===== */}
       <section style={{ position: "relative", height: 320, overflow: "hidden" }}>
         <Image
-          src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&q=80&auto=format&fit=crop"
-          alt="Modern office interior"
+          src="/team-frisco-council.jpg"
+          alt="Frisco City Council team photo by Kurt Nelson"
           fill
           style={{ objectFit: "cover", objectPosition: "center" }}
         />
