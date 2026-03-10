@@ -647,7 +647,7 @@ export default function ProfessionalTeamPhotography() {
             alt="Innovative Images Photography by Kurt Nelson"
             width={200}
             height={50}
-            style={{ objectFit: "contain", marginBottom: 8 }}
+            style={{ display: "block", marginLeft: "auto", marginRight: "auto", objectFit: "contain", marginBottom: 8 }}
           />
           <p style={{ fontSize: "0.85rem", color: "var(--color-text-muted)", marginBottom: 4 }}>
             <a
