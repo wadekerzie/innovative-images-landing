@@ -155,7 +155,7 @@ export default function ProfessionalTeamPhotography() {
             alt="Innovative Images Photography by Kurt Nelson"
             width={280}
             height={70}
-            style={{ marginBottom: 20, objectFit: "contain" }}
+            style={{ display: "block", marginLeft: "auto", marginRight: "auto", marginBottom: 20, objectFit: "contain" }}
           />
 
           <h1
@@ -353,8 +353,8 @@ export default function ProfessionalTeamPhotography() {
             </div>
             <div style={{ position: "relative", aspectRatio: "3/2", overflow: "hidden", borderRadius: 6 }}>
               <Image
-                src="/team-women-group.jpg"
-                alt="Women's professional team group portrait"
+                src="/team-frisco-council.jpg"
+                alt="Frisco City Council professional team photo"
                 fill
                 style={{ objectFit: "cover", objectPosition: "center" }}
               />
@@ -399,7 +399,7 @@ export default function ProfessionalTeamPhotography() {
                 src="/team-dentist.jpg"
                 alt="Dental professional headshot"
                 fill
-                style={{ objectFit: "cover", objectPosition: "top" }}
+                style={{ objectFit: "cover", objectPosition: "40% top" }}
               />
             </div>
             <div style={{ position: "relative", aspectRatio: "3/4", overflow: "hidden", borderRadius: 6 }}>
@@ -412,11 +412,11 @@ export default function ProfessionalTeamPhotography() {
             </div>
           </div>
 
-          {/* Row 4: Frisco Council — full width showcase */}
-          <div style={{ position: "relative", aspectRatio: "21/9", overflow: "hidden", borderRadius: 6, marginTop: 8 }}>
+          {/* Row 4: Ladies in Black — full width showcase */}
+          <div style={{ position: "relative", aspectRatio: "16/9", overflow: "hidden", borderRadius: 6, marginTop: 8 }}>
             <Image
-              src="/team-frisco-council.jpg"
-              alt="Frisco City Council professional team photo"
+              src="/team-women-group.jpg"
+              alt="Women's professional team group portrait"
               fill
               style={{ objectFit: "cover", objectPosition: "center" }}
             />
@@ -491,8 +491,8 @@ export default function ProfessionalTeamPhotography() {
       {/* ===== FULL-WIDTH IMAGE BREAK ===== */}
       <section style={{ position: "relative", height: 320, overflow: "hidden" }}>
         <Image
-          src="/team-frisco-council.jpg"
-          alt="Frisco City Council team photo by Kurt Nelson"
+          src="/team-office.jpg"
+          alt="Modern professional office space photographed by Kurt Nelson"
           fill
           style={{ objectFit: "cover", objectPosition: "center" }}
         />
