@@ -539,24 +539,24 @@ export default function ProfessionalTeamPhotography() {
               display: "grid",
               gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
               gap: 28,
-              maxWidth: 820,
+              maxWidth: 1100,
               marginLeft: "auto",
               marginRight: "auto",
             }}
           >
             <Testimonial
-              quote="We needed our entire staff of 25 photographed in a single afternoon with zero disruption to patient care. Kurt made it seamless — and the portraits look incredible."
-              cite="Practice Manager, DFW Medical Group"
+              quote="When it comes to finding a truly exceptional photographer, Kurt Nelson is the clear choice. He's responsive, accommodating, and professional; Kurt will work tirelessly to capture the perfect shot. Each time, his work has exceeded my expectations. If you want to look your absolute best in your photos, look no further than Kurt."
+              cite="T. Cowley"
             />
             <Testimonial
-              quote="Our previous headshots were a patchwork from years of different photographers. Kurt gave us a cohesive, professional look that finally matches the caliber of our firm."
-              cite="Marketing Director, DFW Law Firm"
+              quote="Kurt Nelson of Innovative Images is simply exceptional. His wonderful personality instantly establishes a comfortable and enjoyable atmosphere during photo sessions. Kurt's creative approach results in truly captivating and unique images. Having worked with Kurt both personally and professionally, I can confidently say he is the best in his craft. Period."
+              cite="MiSuk"
+            />
+            <Testimonial
+              quote="Kurt is amazing! I am not photogenic at all, and I absolutely hate taking pictures. I saw Kurt's work at a friend's house and she raved about him, so I made an appointment. We are never disappointed! I would never willingly use a different photographer — he's the best, I promise!"
+              cite="A. Snipes"
             />
           </div>
-
-          <p style={{ marginTop: 28, fontSize: "0.7rem", color: "var(--color-text-dim)", fontStyle: "italic" }}>
-            Placeholder testimonials — to be replaced with verified client quotes
-          </p>
         </div>
       </section>
 
