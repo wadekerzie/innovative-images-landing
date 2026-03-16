@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.innovativeimagesphotos.com"),
   title: "Professional Team Photography | McKinney, TX | Innovative Images",
   description:
     "On-location team photography for corporate groups, medical practices, law firms & professional organizations across Dallas-Fort Worth. 30+ years of experience.",
@@ -20,21 +21,12 @@ export const metadata: Metadata = {
     siteName: "Innovative Images Photography",
     locale: "en_US",
     type: "website",
-    images: [
-      {
-        url: "/og-image.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Professional team portrait by Innovative Images Photography — corporate, medical, and legal group photography",
-      },
-    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Professional Team Photography | Innovative Images",
     description:
       "Cohesive, polished team portraits for corporate groups, medical practices, law firms & professional organizations. On-location across DFW.",
-    images: ["/og-image.jpg"],
   },
   alternates: {
     canonical: "https://www.innovativeimagesphotos.com/team-photography",
@@ -128,6 +120,48 @@ const jsonLd = {
         },
         name: "Schedule a Team Photography Consultation",
       },
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: "5",
+        reviewCount: "3",
+        bestRating: "5",
+        worstRating: "1",
+      },
+      review: [
+        {
+          "@type": "Review",
+          author: { "@type": "Person", name: "T. Cowley" },
+          reviewRating: {
+            "@type": "Rating",
+            ratingValue: "5",
+            bestRating: "5",
+          },
+          reviewBody:
+            "When it comes to finding a truly exceptional photographer, Kurt Nelson is the clear choice. He's responsive, accommodating, and professional; Kurt will work tirelessly to capture the perfect shot.",
+        },
+        {
+          "@type": "Review",
+          author: { "@type": "Person", name: "MiSuk" },
+          reviewRating: {
+            "@type": "Rating",
+            ratingValue: "5",
+            bestRating: "5",
+          },
+          reviewBody:
+            "Kurt Nelson of Innovative Images is simply exceptional. His wonderful personality instantly establishes a comfortable and enjoyable atmosphere during photo sessions. I can confidently say he is the best in his craft. Period.",
+        },
+        {
+          "@type": "Review",
+          author: { "@type": "Person", name: "A. Snipes" },
+          reviewRating: {
+            "@type": "Rating",
+            ratingValue: "5",
+            bestRating: "5",
+          },
+          reviewBody:
+            "Kurt is amazing! I saw Kurt's work at a friend's house and she raved about him, so I made an appointment. We are never disappointed! I would never willingly use a different photographer — he's the best, I promise!",
+        },
+      ],
     },
     {
       "@type": "WebPage",
